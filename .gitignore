@@ -1,3 +1,10 @@
+*.bundle.*
+lib/
+node_modules/
+*.egg-info/
+.ipynb_checkpoints
+*.tsbuildinfo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +134,30 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# OS X stuff
+*.DS_Store
+
+# End of https://www.gitignore.io/api/python
+
+_temp_extension
+junit.xml
+[uU]ntitled*
+notebook/static/*
+!notebook/static/favicons
+notebook/labextension
+notebook/schemas
+docs/source/changelog.md
+docs/source/contributing.md
+
+# playwright
+ui-tests/test-results
+ui-tests/playwright-report
+
+# VSCode
+.vscode
+
+# RTC
+.jupyter_ystore.db
+
+
+*.docx
